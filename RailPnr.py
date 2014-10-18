@@ -1,5 +1,6 @@
 import sys
-if (len(sys.argv) != 2) or (type(int(sys.argv[1])) != int):
+print type(int(sys.argv[1]))
+if (len(sys.argv) != 2) or (type(int(sys.argv[1])) != long):
 	sys.exit("Please provide with a valid Railway PNR as a parameter")
 	
 else:
